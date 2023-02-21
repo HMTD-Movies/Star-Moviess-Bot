@@ -12,29 +12,28 @@ def is_enabled(value, default):
 
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://tnlink.in/ref/KarthikUK')
-    START_TXT = environ.get("START_TXT", '''<b>Hello 👋🏻 {} ♥️,\nI'm an UK Studios Official <a href=https://t.me/UK_Movies_Bot><b>UK Movies Bot</b></a> Maintained by <a href=https://t.me/UK_Movies_Zone_Updates><b></b>UK Movies Zone (Updates)</a>. We are Providing Tamil and Tamil Dubbed Movies. More Languages Coming Soon. Keep me Join to Our Official Channel to Receive Bot & Movies Updates in <a href=https://t.me/UK_Movies_Zone_Updates><b></b>UK Movies Zone (Updates)</a>. Check "😁 About" Button.</b>''')
+    START_TXT = environ.get("START_TXT", '''<b>Hello 👋🏻 {} ♥️,\nI'm an Star Movies Tamil's Official <a href=https://t.me/Star_Moviess_Bot><b>Star Movies Bot</b></a> Maintained by <a href=https://t.me/Star_Moviess_Tamil><b></b>Star Movies Tamil</a>. We are Providing Tamil and Tamil Dubbed Movies. More Languages Coming Soon. Keep me Join to Our Official Channel to Receive Bot & Movies Updates in <a href=https://t.me/Star_Moviess_Tamil><b></b>Star Movies Tamil</a>. Check "😁 About" Button.</b>''')
     HELP_TXT = """<b>Hello 👋🏻 {} ♥️,
 I have that Features.
 Create One Link This :-
 » I will Create For One Bot You. But Paid
-» Contact Me <a href=https://t.me/HMTD_Karthik><b>Karthik</b></a></b>"""
-    ABOUT_TXT = """<b><i>🤖 My Name :- <a href=https://t.me/UK_Movies_Bot><b>UK Movies Bot</b></a>\n
-🧑🏻‍💻 Developer :- <a href=https://t.me/HMTD_Karthik><b>Karthik</b></a>\n
+» Contact Me <a href=https://t.me/Star_Movies_Karthik><b>Karthik</b></a></b>"""
+    ABOUT_TXT = """<b><i>🤖 My Name :- <a href=https://t.me/Star_Moviess_Bot><b>Star Movies Bot</b></a>\n
+🧑🏻‍💻 Developer :- <a href=https://t.me/Star_Movies_Karthik><b>Karthik</b></a>\n
 📝 Language :- Pyrogram\n
 📚 Framework :- Python3\n
 📡 Hosted on :- VPS\n
-📢 Updates Channel :- <a href=https://t.me/UK_Movies_Zone_Updates><b></b>UK Movies Zone (Updates)</a>\n
-🌐 Website :- <a href=https://www.HMTDMovies.tk><b></b>www.HMTDMovies.tk</a>\n
+📢 Updates Channel :- <a href=https://t.me/Star_Moviess_Tamil><b></b>Star Movies Tamil</a>\n
 🌟 Version :- 4.2</b></i>"""
     SOURCE_TXT = """<b>Create One Like This :-</b>
 » I will Create One Bot For You. But Paid<b>
-» Contact Me</b> <a href=https://t.me/HMTD_Karthik><b>Karthik</b></a>"""
+» Contact Me</b> <a href=https://t.me/Star_Movies_Karthik><b>Karthik</b></a>"""
     MANUELFILTER_TXT = """<b>Help :-</b> <b>Filters</b>
 
-<b>- Filter is the Feature Were Users Can set Automated Replies for a Particular Keyword and <a href=https://t.me/UK_Movies_Bot><b>Our Bot</b></a> will Respond Whenever a Keyword is Found the Message</b>
+<b>- Filter is the Feature Were Users Can set Automated Replies for a Particular Keyword and <a href=https://t.me/Star_Moviess_Bot><b>Our Bot</b></a> will Respond Whenever a Keyword is Found the Message</b>
 
 <b>NOTE :-</b>
-<b>1. <a href=https://t.me/UK_Movies_Bot><b>UK Movies Bot</b></a> Should have 👨‍✈️ Admin Privillage.
+<b>1. <a href=https://t.me/Star_Moviess_Bot><b>Star Movies Bot</b></a> Should have 👨‍✈️ Admin Privillage.
 2. Only 👨‍✈️ Admins can Add Filters in a Chat.
 3. Alert Buttons have a Limit of 64 Characters.</b>
 
@@ -45,15 +44,15 @@ Create One Link This :-
 • /delall - Delete the Whole Filters in a Chat (Chat Owner Only)</b>"""
     BUTTON_TXT = """<b>Help :-</b> <b>Buttons</b>
 
-<b>- <a href=https://t.me/UK_Movies_Bot><b>UK Movies Bot</b></a> Supports Both URL and Alert Inline Buttons.</b>
+<b>- <a href=https://t.me/Star_Moviess_Bot><b>Star Movies Bot</b></a> Supports Both URL and Alert Inline Buttons.</b>
 
 <b>NOTE :-</b>
 <b>1. Telegram will Not Allows you to Send Buttons Without Any Content, so Content is Mandatory.
-2. <a href=https://t.me/UK_Movies_Bot><b>UK Movies Bot</b></a> supports Buttons With Any Telegram Media/File type.
+2. <a href=https://t.me/Star_Moviess_Bot><b>Star Movies Bot</b></a> supports Buttons With Any Telegram Media/File type.
 3. Buttons Should be Properly Parsed as Markdown Format</b>
 
 <b>URL Buttons :-</b>
-<code>[Button Text](buttonurl:https://t.me/UK_Movies_Zone_Updates)</code>
+<code>[Button Text](buttonurl:https://t.me/Star_Moviess_Tamil)</code>
 
 <b>Alert Buttons :-</b>
 <code>[Button Text](buttonalert:This is an Alert Message)</code>"""
@@ -80,7 +79,7 @@ Create One Link This :-
     EXTRAMOD_TXT = """<b>Help :-</b> <b>Extra Modules</b>
 
 <b>NOTE :-</b>
-<b>These are the Extra Features of Our <a href=https://t.me/UK_Movies_Bot><b>UK Movies Bot</b></a></b>
+<b>These are the Extra Features of Our <a href=https://t.me/Star_Moviess_Bot><b>Star Movies Bot</b></a></b>
 
 <b>Commands and Usage :</b>
 <b>• /id - Get ID of a Specified User.
